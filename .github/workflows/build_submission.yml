@@ -23,7 +23,7 @@ jobs:
 
       - name: Run prediction script
         run: |
-          python src/predict_test.py
+          python predict_test.py
 
       - name: Upload submission as artifact
         uses: actions/upload-artifact@v4
